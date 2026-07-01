@@ -1,27 +1,21 @@
 # ===================================
-# VoiceVision AI - requirements.txt
+# EcoVision AI - requirements.txt
 # ===================================
-
 # --- Web Application Framework ---
 streamlit==1.38.0
 
 # --- Deep Learning Frameworks ---
 tensorflow==2.17.0
 torch==2.4.1
-torchvision==0.19.1
 
 # --- NLP / Transformers (DistilBERT) ---
 transformers==4.44.2
 
-# --- Speech Recognition (Whisper) ---
-openai-whisper==20231117
+# --- Gemini AI Responses ---
+google-genai
 
 # --- Image Processing ---
 Pillow==10.4.0
 
 # --- Data Handling ---
 numpy==1.26.4
-pandas==2.2.2
-
-# --- Visualization ---
-matplotlib==3.9.2
