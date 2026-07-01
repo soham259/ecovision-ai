@@ -218,12 +218,6 @@ def render_sidebar():
             st.markdown(f"- Gemini AI Answers: {gemini_status}")
 
         st.divider()
-        st.caption("Session Stats")
-        c1, c2 = st.columns(2)
-        c1.metric("Predictions", st.session_state["total_predictions"])
-        c2.metric("Recyclable", st.session_state["total_recyclable"])
-
-        st.divider()
         st.caption("Built with Streamlit • TensorFlow • Transformers")
 
         return page
