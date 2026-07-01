@@ -2,8 +2,9 @@
 
 **Smart Waste Classification and Recycling Assistant**
 
-EcoVision AI is a Streamlit app that identifies waste items from a photo and answers natural-language questions about how to dispose of, recycle, reuse, or understand the environmental impact of that item — grounded in a curated recycling knowledge base.
+🔗 **Live Demo:** [Try EcoVision AI](https://ecovision-ai-uodrbfw7bu8ascafvwmtkf.streamlit.app/)
 
+EcoVision AI is a Streamlit app that identifies waste items from a photo and answers natural-language...
 ---
 
 ## ✨ Features
