@@ -15,9 +15,11 @@ env/
 .DS_Store
 Thumbs.db
 
-# Large model weights
-models/**/*.safetensors
-models/**/*.bin
+# Large model weights (Whisper only — DistilBERT is committed via LFS)
+models/whisper/*.safetensors
+models/whisper/*.bin
+models/whisper/**/*.safetensors
+models/whisper/**/*.bin
 
 # Jupyter checkpoints
 .ipynb_checkpoints/
