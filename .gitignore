@@ -1,0 +1,28 @@
+@"
+# Secrets - NEVER commit
+.env
+.streamlit/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+env/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Large model weights
+models/**/*.safetensors
+models/**/*.bin
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Temp/output folders
+outputs/
+temp/
+"@ | Out-File -Encoding utf8 .gitignore

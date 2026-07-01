@@ -1,0 +1,18 @@
+{
+    "label2id": {
+        "Decomposition": 0,
+        "Disposal": 1,
+        "Environment": 2,
+        "Material": 3,
+        "Recycling": 4,
+        "Reuse": 5
+    },
+    "id2label": {
+        "0": "Decomposition",
+        "1": "Disposal",
+        "2": "Environment",
+        "3": "Material",
+        "4": "Recycling",
+        "5": "Reuse"
+    }
+}
